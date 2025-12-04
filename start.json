@@ -10,7 +10,7 @@
         "env": {},
         "input": null,
         "message": [
-          "python demo\\vibevoice_realtime_demo.py"
+          "python demo/vibevoice_realtime_demo.py --device {{gpu === 'apple' ? 'mps' : (gpu === 'nvidia' ? 'cuda' : 'cpu')}}"
         ],
         "on": [
           {
